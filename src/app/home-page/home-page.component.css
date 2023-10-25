@@ -1,0 +1,8 @@
+.text-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.code-tags {
+   font-family: 'Sometype Mono', monospace;
+}

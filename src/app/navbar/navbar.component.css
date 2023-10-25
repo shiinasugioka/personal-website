@@ -1,0 +1,30 @@
+.navbar {
+  font-family: "Judson", serif;
+  font-weight: 400;
+  font-size: 40px;
+  display: flex;
+  padding: 20px;
+}
+
+.navbar-container {
+  width: 100%;
+  display: block;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-right {
+  float: right;
+  justify-content: space-between;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-right .navlink {
+  margin: 0px 16px 0px 16px;
+}
