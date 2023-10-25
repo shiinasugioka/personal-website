@@ -1,8 +1,28 @@
+body {
+   min-height: 100vh;
+   padding: 60px;
+}
+
 .text-container {
-   display: flex;
-   flex-direction: row;
+   display: block;
+   margin-top: 200px;
+}
+
+.left-text {
+   float: left;
+}
+
+.right-text {
+   float: right;
 }
 
 .code-tags {
    font-family: 'Sometype Mono', monospace;
+   font-size: 48px;
+   margin-top: 90px;
+}
+
+.greeting {
+   text-align: right;
+   font-size: 128px;
 }
